@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Clinic Template</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<nav class="navbar">
+
+    <div class="logo">
+        MediCare Clinic
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#doctors">Doctors</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <a href="#appointment" class="appointment-btn">
+        Book Appointment
+    </a>
+
+</nav>
+  <section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <h1>Welcome to MediCare Clinic</h1>
+
+        <p>
+            Your health is our priority. 
+            Professional care you can trust.
+        </p>
+
+        <a href="#appointment" class="hero-btn">
+            Book an Appointment
+        </a>
+
+    </div>
+
+</section>
+  <section class="services" id="services">
+
+    <h2>Our Medical Services</h2>
+
+    
+    <p class="section-intro">
+        We provide professional medical care for you and your family.
+    </p>
+
+    <div class="services-container">
+
+        <div class="service-card">
+            <img src="images/medical.jpg" alt="Medical Care">
+            <h3>General Medicine</h3>
+            <p>
+                Professional medical consultations and comprehensive care.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/examination.jpg" alt="Medical Examination">
+            <h3>Medical Examination</h3>
+            <p>
+                Careful examinations to help understand and monitor your health.
+            </p>
+        </div>
+
+        <div class="service-card">
+            <img src="images/equipment.jpg" alt="Medical Equipment">
+            <h3>Modern Diagnostics</h3>
+            <p>
+                Modern medical equipment to support accurate diagnosis.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+  <section class="about" id="about">
+
+    <div class="about-content">
+
+        <div class="about-text">
+
+            <h2>About Our Clinic</h2>
+
+            <p>
+                MediCare Clinic is dedicated to providing
+                professional and compassionate healthcare.
+            </p>
+
+            <p>
+                Our team is committed to creating a comfortable
+                environment and delivering quality medical care.
+            </p>
+
+        </div>
+
+        <div class="about-image">
+
+            <img src="images/room.jpg" alt="Clinic Room">
+
+        </div>
+
+    </div>
+
+  </section>
+  <section class="doctors" id="doctors">
+
+    <h2>Our Doctors</h2>
+
+    <p class="section-intro">
+        Meet our experienced medical professionals.
+    </p>
+
+    <div class="doctors-container">
+
+        <div class="doctor-card">
+
+            <img src="images/doctor.jpg" alt="Doctor">
+
+            <h3>Dr. Sarah Ahmed</h3>
+
+            <p>General Physician</p>
+
+        </div>
+
+        <div class="doctor-card">
+
+            <img src="images/doctor2.jpg" alt="Doctor">
+
+            <h3>Dr. Michael James</h3>
+
+            <p>Medical Specialist</p>
+
+        </div>
+
+    </div>
+
+</section>
+  <section class="reviews" id="reviews">
+
+    <h2>Patient Reviews</h2>
+
+    <p class="section-intro">
+        What our patients say about our care.
+    </p>
+
+    <div class="reviews-container">
+
+        <div class="review-card">
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+                Excellent service and very caring staff.
+                I felt comfortable throughout my visit.
+            </p>
+
+            <h3>Emily Johnson</h3>
+
+        </div>
+
+        <div class="review-card">
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+                The doctors were professional and helpful.
+                Highly recommended.
+            </p>
+
+            <h3>Daniel Smith</h3>
+
+        </div>
+
+        <div class="review-card">
+
+            <div class="stars">★★★★★</div>
+
+            <p>
+                A clean and welcoming clinic with
+                excellent medical care.
+            </p>
+
+            <h3>Olivia Brown</h3>
+
+        </div>
+
+    </div>
+
+</section>
+  <section class="appointment" id="appointment">
+
+    <h2>Book an Appointment</h2>
+
+    <p class="section-intro">
+        Schedule your visit with our medical team.
+    </p>
+
+    <form class="appointment-form">
+
+        <input
+            type="text"
+            placeholder="Your Name"
+            required
+        >
+
+        <input
+            type="email"
+            placeholder="Your Email"
+            required
+        >
+
+        <input
+            type="tel"
+            placeholder="Phone Number"
+            required
+        >
+
+        <select required>
+
+            <option value="">Select a Service</option>
+
+            <option value="general-medicine">
+                General Medicine
+            </option>
+
+            <option value="examination">
+                Medical Examination
+            </option>
+
+            <option value="diagnostics">
+                Modern Diagnostics
+            </option>
+
+        </select>
+
+        <input
+            type="date"
+            required
+        >
+
+        <textarea
+            placeholder="Additional Message"
+            rows="5"
+        ></textarea>
+
+        <button type="submit">
+            Book Appointment
+        </button>
+
+    </form>
+
+</section>
+  <section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p class="section-intro">
+        We are here to help. Get in touch with our clinic.
+    </p>
+
+    <div class="contact-container">
+
+        <div class="contact-info">
+
+            <h3>Clinic Information</h3>
+
+            <p>📍 123 Medical Street, City</p>
+
+            <p>📞 +123 456 7890</p>
+
+            <p>✉️ info@medicareclinic.com</p>
+
+            <p>🕒 Monday - Saturday: 9:00 AM - 6:00 PM</p>
+
+        </div>
+
+        <div class="contact-image">
+
+            <img src="images/reception.jpg" alt="Clinic Reception">
+
+        </div>
+
+    </div>
+
+</section>
+  <footer class="footer">
+
+    <p>
+        © 2026 MediCare Clinic. All Rights Reserved.
+    </p>
+
+    <p>
+        Clinic Website Template
+    </p>
+
+</footer>
+</body>
+
+</html>
